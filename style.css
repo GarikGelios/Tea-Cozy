@@ -1,0 +1,20 @@
+body{
+   font-family: Helvetica, Arial, sans-serif;
+   font-size: 22px;
+   color: seashell;
+   background-color: black;
+   opacity: 0.9;
+   text-align: center;
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+}
+main {
+   flex: 1;
+}
+.big-banner{
+   background-image: url('img-mission-background.jpg');
+}
+.locations{
+   background-image: url('img-locations-background.jpg');
+}
