@@ -55,7 +55,7 @@ main {
 }
 
 .big-banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(img-mission-background.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 10%), rgba(0, 0, 0, 10%)), url(img-mission-background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -86,7 +86,7 @@ main {
 }
 
 .locations {
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("img-locations-background.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 10%), rgba(0, 0, 0, 10%)), url("img-locations-background.jpg");
   min-height: 500px;
   display: flex;
   flex-direction: column;
@@ -94,7 +94,7 @@ main {
 }
 
 .locations h2 {
-  margin: 15px 0 0 0;
+  margin: 15px 0 0;
 }
 
 .locations div {
@@ -103,7 +103,7 @@ main {
   justify-content: center;
 }
 
-.locations div section{
+.locations div section {
   width: 300px;
   background-color: black;
   margin: 15px 40px;
