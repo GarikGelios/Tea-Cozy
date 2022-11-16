@@ -53,9 +53,9 @@ main {
 }
 
 .big-banner {
-  background-image: url('img-mission-background.jpg');
+  background-image: url("img-mission-background.jpg");
 }
 
 .locations {
-  background-image: url('img-locations-background.jpg');
+  background-image: url("img-locations-background.jpg");
 }
