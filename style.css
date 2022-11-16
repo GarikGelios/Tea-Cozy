@@ -5,8 +5,9 @@ body {
   background-color: black;
   text-align: center;
   display: flex;
-  min-height: 100vh;
+  min-height: 100%;
   flex-direction: column;
+  margin: 0;
 }
 
 header {
@@ -25,6 +26,7 @@ header {
 
 header img[alt~="Logo"] {
   margin: 10px auto;
+  padding-left: 10px;
 }
 
 header nav {
@@ -45,6 +47,10 @@ header nav ol li {
   text-decoration: underline;
 }
 
+header nav ol li a {
+  color: seashell;
+}
+
 main {
   flex: 1;
   display: flex;
@@ -52,9 +58,10 @@ main {
   align-items: center;
   position: relative;
   top: 70px;
+  margin-bottom: 60px;
 }
 
-.big-banner {
+#mission {
   background: linear-gradient(rgba(0 0 0 / 10%), rgba(0 0 0 / 10%)), url("img-mission-background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -64,28 +71,34 @@ main {
   align-items: center;
 }
 
-.big-banner section {
+#mission section {
   background-color: black;
   width: 100%;
   padding: 0 10px;
 }
 
-.steeping {
+#featured-tea {
+  height: 70px;
+  position: relative;
+  visibility: hidden;
+}
+
+.featured-tea {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   max-width: 1000px;
 }
 
-.steeping div {
+.featured-tea div {
   margin: 10px;
 }
 
-.steeping div h3 {
+.featured-tea div h3 {
   margin: 10px;
 }
 
-.locations {
+#locations {
   background: linear-gradient(rgba(0 0 0 / 10%), rgba(0 0 0 / 10%)), url("img-locations-background.jpg");
   min-height: 500px;
   display: flex;
@@ -93,23 +106,47 @@ main {
   justify-content: center;
 }
 
-.locations h2 {
+#locations h2 {
   margin: 15px 0 0;
 }
 
-.locations div {
+#locations div {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.locations div section {
+#locations div section {
   width: 300px;
   background-color: black;
   margin: 15px 40px;
 }
 
-.locations div section address p {
+#locations div section address p {
   padding: 10px 0;
   font-style: normal;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+}
+
+.contacts address {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts address a {
+  margin: 10px;
+  color: seashell;
+  text-decoration: none;
+  font-style: normal;
+}
+
+footer {
+  background-color: black;
+  text-align: left;
+  margin: 0 0 0 20px;
 }
