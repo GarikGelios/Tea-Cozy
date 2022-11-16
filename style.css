@@ -71,6 +71,21 @@ main {
   padding: 0 10px;
 }
 
+.steeping {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1000px;
+}
+
+.steeping div {
+  margin: 10px;
+}
+
+.steeping div h3 {
+  margin: 10px;
+}
+
 .locations {
   background-image: url("img-locations-background.jpg");
 }
