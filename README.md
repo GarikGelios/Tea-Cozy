@@ -8,3 +8,5 @@
 ![Website](https://img.shields.io/website?url=https%3A%2F%2Fgarikgelios.github.io%2FTea-Cozy%2F)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/GarikGelios/Tea-Cozy)
 ![GitHub repo file count](https://img.shields.io/github/directory-file-count/GarikGelios/Tea-Cozy)
+
+[Visit website on GitHub page](https://garikgelios.github.io/Tea-Cozy/)
