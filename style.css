@@ -9,8 +9,41 @@ body{
    min-height: 100vh;
    flex-direction: column;
 }
+header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+   min-height: 69px;
+   border-bottom: 1px solid seashell;
+   position: fixed;
+   width: 100%;
+   background-color: black;
+   z-index: 1;
+   top: 0;
+}
+header img[alt~="Logo"]{
+   margin: 10px auto;
+}
+header nav {
+   display: flex;
+   flex-grow: 1;
+   justify-content: end;
+}
+header nav ol {
+   display: flex;
+   margin: 10px;
+   padding: 0;
+}
+header nav ol li{
+   list-style-type: none;
+   padding: 0 10px;
+   text-decoration: underline;
+}
 main {
    flex: 1;
+   position: relative;
+   top: 70px;
 }
 .big-banner{
    background-image: url('img-mission-background.jpg');
